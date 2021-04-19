@@ -1,6 +1,8 @@
-# ARM64 Assembly
+# M1 Assembly
 
-ARM64 Assembly tutorial.
+Some samples and tutorial for Apple's M1 arm64 processor.
+
+## Registers
 
 * **X0-X8** - `9 arguments to syscall`
 * **X16/w8** - `System Call function number`
