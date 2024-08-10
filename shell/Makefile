@@ -11,7 +11,7 @@ build: $(TARGET)
 
 clean:
 	$(QUIET) $(LOG) [Cleaning]
-	$(QUIET) $(DELETE) -rf $(OBJECTS) $(BUILD) $(LIBRARY)
+	$(QUIET) rm -rf $(OBJECTS) $(BUILD) $(LIBRARY)
 	$(QUIET) $(LOG) [Done cleaning]
 
 $(TARGET): shell.S
